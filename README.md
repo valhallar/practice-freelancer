@@ -7,3 +7,6 @@ It's intend for educational purpose, for me to study how to create HTML and CSS 
 Starting date: June 6th, 2020
 Period: 
 Ending date: 
+
+**Known problem**
+1. CSS: nav.navbar, can't change height following the screen size
