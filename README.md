@@ -8,5 +8,6 @@ Starting date: June 6th, 2020
 Period: 
 Ending date: 
 
-**Known problem**
-1. CSS: nav.navbar, can't change height following the screen size
+**Notes**
+1. To change nav's color, add id in section (<section id="navigation">). Afterward, us id to select the classes like #navigation a.navbar-brand. 
+

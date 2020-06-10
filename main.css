@@ -13,10 +13,38 @@
 
 #navigation a.nav-link {
     font-weight: 700;
-    color: white !important;
+    color: white;
     padding-right: 40px;
 }
 
 #navigation a.nav-link:hover {
-    color: #1abc9c !important;
+    color: #1abc9c;
+}
+
+#introduction div {
+    background-color: #1abc9c;
+}
+
+#introduction img {
+    width: 15em;
+}
+
+#introduction h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 4em;
+    padding-top: 1em;
+}
+
+#introduction p.break {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+}
+
+#introduction p.lead {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding-top: 0.5em;
 }
