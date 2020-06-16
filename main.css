@@ -21,7 +21,8 @@
     color: #1abc9c;
 }
 
-#introduction div {
+#introduction div,
+#about div {
     background-color: #1abc9c;
 }
 
@@ -98,4 +99,42 @@
     text-align: center;
   }
 
-  
+  #about h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+#about p.break {
+    color: white;
+    font-size: 2em;
+}
+
+#about p.lead {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+#about p.text {
+    color: white;
+    font-size: 1.25em;
+}
+
+#about .pl-lg-5 {
+    padding-left: ($spacer * 5) !important;
+}
+
+#about button {
+    width: 220px;
+    border-radius: 10px;
+    height: 65px;
+    padding: 15px;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+}
+
+#about i.fas {
+    padding-right: 0.5em;
+}

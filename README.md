@@ -4,15 +4,17 @@
 This repository is a repository for me to recreate [Freelance](https://startbootstrap.com/previews/freelancer) from StartBootstrap.  
 It's intend for educational purpose, for me to study how to create HTML and CSS template from looking and console. 
 
-Starting date: June 6th, 2020
-Period: 
-Ending date: 
+Starting date: June 6th, 2020  
+Period:  
+Ending date:  
 
 **Notes**
 
-1. To change nav's color, add id in section (<section id="navigation">). Afterward, us id to select the classes like #navigation a.navbar-brand. 
+1. To change nav's color, add id in section (`<section id="navigation">`). Afterward, us id to select the classes like #navigation a.navbar-brand. 
 
-2. Use code below for overlay
+2. For padding between element inside row, use `<div class="col-sm-12 col-md-6 col-lg-4 px-4 py-4">`
+
+3. Use code below for overlay
 
 ```
 #portfolio .col-sm-12:hover .overlay {
@@ -45,6 +47,8 @@ Ending date:
     text-align: center;
   }
 ```
+
+4. Use `d-flex justify-content-center` to justify row. Case can be found at `<section id="about">`, where there is only two `col-lg-4` (so only 8 part taken, 4 part free), we can used `d-flex justify-content-center` to align `col-lg-4` to center without needing to make new div for the 4 free part.
 
 **Known problem**
 1. Overlay can't be in the same size as image
