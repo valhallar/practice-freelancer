@@ -26,6 +26,11 @@
     background-color: #1abc9c;
 }
 
+#portfolio div,
+#contact div {
+    background-color: white;
+}
+
 #introduction img {
     width: 15em;
 }
@@ -50,14 +55,16 @@
     padding-top: 0.5em;
 }
 
-#portfolio h1 {
+#portfolio h1,
+#contact h1 {
     font-weight: 700;
     color: #2c3e50;
     font-size: 3.5em;
     padding-top: 1em;
 }
 
-#portfolio .breakline {
+#portfolio .breakline,
+#contact .breakline {
     font-weight: 700;
     font-size: 1.75em;
     color: #2c3e50;
@@ -99,7 +106,7 @@
     text-align: center;
   }
 
-  #about h1 {
+#about h1 {
     font-weight: 700;
     color: white;
     font-size: 3em;

@@ -52,3 +52,4 @@ Ending date:
 
 **Known problem**
 1. Overlay can't be in the same size as image
+2. Navigation doesn't stick above
