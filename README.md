@@ -50,6 +50,18 @@ Ending date:
 
 4. Use `d-flex justify-content-center` to justify row. Case can be found at `<section id="about">`, where there is only two `col-lg-4` (so only 8 part taken, 4 part free), we can used `d-flex justify-content-center` to align `col-lg-4` to center without needing to make new div for the 4 free part.
 
+5. Erase form border with css below: 
+```
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-color: #e6e6e6;
+```
+
+6. To style placehold, use `::placeholder`
+
 **Known problem**
 1. Overlay can't be in the same size as image
 2. Navigation doesn't stick above
+3. Form border width
