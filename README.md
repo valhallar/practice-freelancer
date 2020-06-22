@@ -61,6 +61,8 @@ Ending date:
 
 6. To style placehold, use `::placeholder`
 
+7. Used `resize: none;` at textarea for no resize
+
 **Known problem**
 1. Overlay can't be in the same size as image
 2. Navigation doesn't stick above
